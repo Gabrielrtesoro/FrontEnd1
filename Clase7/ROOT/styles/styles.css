@@ -1,0 +1,63 @@
+* {
+  font-family: "Times New Roman";
+  margin:0;
+  padding:0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #c4c4c4;
+  color: #005677;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+h2 {
+  margin: 30px;
+  padding: 30px;
+}
+
+h3 {
+  background-color: #c4c4c4;
+  color: #005677;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+i {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #005677;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.margencito{
+  margin-left: 20px;
+  margin-right:3px;
+}
+
+.sub-contenedor{
+  display:flex;
+}
+
+.contenedor{
+  margin-top:20px;
+  margin-bottom: 20px;
+  /*esto que puse arriba es lo mismo que poner margin: 20,0,20,0; */
+}
+
+.izquierda{
+  margin-left:50px;
+  margin-bottom:5px;
+}

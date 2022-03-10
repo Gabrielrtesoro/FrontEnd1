@@ -1,5 +1,103 @@
-.navBar {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1028px;
+    height: 1028px;
+}
+#zoneBar{
+    align-items: center;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    }   
+
+#zoneBar ul{    
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+#zoneBar p{
+    margin-left: 5px;
+}
+#zoneBar ul li{
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navBar{
+    background-color: #F0A83E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    }
+
+#banner{
+   width: 1028px;
+}
+
+#sobreBanner{
+    position: absolute;
+    width: 365px;
+    height: 85px;
+    left: 648px;
+    top: 237px;
+    
+}
+
+#bienvenido{   
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;      
+}
+
+#descuento{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+    }
+
+#botonComederos{
+   
 
     background-color: #F0A83E;
+    font-family: Roboto;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FFFFFF;
+
+}
+
+#productos {
+    display: flex;
+    justify-content: space-around;
 
 }
